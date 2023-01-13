@@ -1,0 +1,27 @@
+-luoghi dichiarati x:
+Grecia I	2470 - Athens
+Grecia II	2581 - Olympia
+Lazio		0218 - Corneto
+Sicilia		1351 - Chiusi
+Sicilia		1368 - Palermo
+
+-altre di luoghi visitati:
+xG Bretagna	3003 - Olympia
+xGrecia III	2832 - Athens
+xLazio		0028 - Corneto
+xSicilia	1352 - Palermo
+xToscana II	1965 - Chiusi
+
+-latest
+Grecia I	2464 - 1895
+Grecia I	2480 - 1896
+Grecia II	2553 - 1898
+Toscana I	0914 - 1896
+xUmbria		0661 - 1898
+
+-untranscribed:
+Emilia Romagna	0426
+Francia		2225
+Grecia II	2624
+Grecia II	2633
+Grecia III	2783
