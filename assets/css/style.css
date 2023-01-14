@@ -32,12 +32,6 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.name {background: grey;}
-.placeName {background: green;}
-.persName {background: pink;}
-.date {background: orange;}
-.bibl {background: blue;}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -761,10 +755,6 @@ section {
   margin: 0 auto;
 }
 
-.testimonials .testimonial-item iframe { /*enrica*/
-  width: 100%;
-}
-
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
@@ -1112,11 +1102,7 @@ section {
     padding-right: 20px 15px;
   }
 }
-
-
-* {box-sizing:border-box}
-
-/*Enrie Slideshow container */
+/*add */
 /*2°tent*/
 #slider {
   position: relative;
@@ -1124,28 +1110,6 @@ section {
   margin: 20px auto 0 auto;
   border-radius: 4px;
 }
-
-#slider ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  list-style: none;
-}
-
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 500px;
-  height: 300px;
-  background: #ccc;
-  text-align: center;
-  line-height: 300px;
-}
-
 a.control_prev, a.control_next {
   position: absolute;
   top: 40%;
@@ -1183,199 +1147,4 @@ a.control_next {
   width: 160px;
   font-size: 18px;
 }
-
-/*1°tent*/
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-/*3*/
-
-/* You can remove this page div in your website */
-#page{
-  width:100%;
-  height:100%;
-  position:absolute;
-}
-
-/* Our normalize css */
-*{
-  margin:0;
-  box-sizing: border-box;
-}
-
-/* Our wrapper */
-.wrapper{
-  width: 900px;
-  height: 600px;
-  position: absolute;
-  left:50%;
-  top:50%;
-  transform:translate3d(-50%,-50%,0);
-  overflow:hidden;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-/* Our image information */
-.before,
-.after {
-  width:100%;
-  height:100%;
-  background-repeat:no-repeat;
-  background-color: white;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top:0;
-  left:0;
-  pointer-events:none;
-  overflow: hidden;
-}
-
-.content-image{
-  height:100%;
-}
-
-.after{
-  width:125px;
-}
-
-.scroller{
-  width: 50px;
-  height:50px;
-  position: absolute;
-  left:100px;
-  top:50%;
-  transform:translateY(-50%);
-  border-radius:50%;
-  background-color: transparent;
-  opacity:0.9;
-  pointer-events:auto;
-  cursor: pointer;
-}
-
-.scroller:hover{
-  opacity:1;
-}
-
-.scrolling{
-  pointer-events:none;
-  opacity:1;
-  // z-index: 1;
-}
-
-.scroller__thumb{
-  width:100%;
-  height:100%;
-  padding:5px;
-}
-
-.scroller:before,
-.scroller:after{
-  content:" ";
-  display: block;
-  width: 7px;
-  height: 9999px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3.5px;
-  z-index: 30;
-  transition:0.1s;
-}
-.scroller:before{
-  top:100%;
-}
-.scroller:after{
-  bottom:100%;
-}
-
-/* If you want to cahnge the colors, make sure you change the fill in the svgs to match */
-.scroller{
-  border: 5px solid #fff;
-}
-.scroller:before,
-.scroller:after{
-  background: #fff;
-}
-
-/*fine enri*/
+/*end add*/
