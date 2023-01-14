@@ -14,16 +14,16 @@ function slide_slides() /*(selection){
 		id = "igraph3"};}
 	if (selection == d){
 		id = "igraph4"};}*/	
-	let id = "igraph4";
+	let id = "igraph1";
 	counter=counter+1;
 	if (counter==2) {
-		graph = 'assets/data_viz/1.2_OA.htm';
+		graph = 'assets/data_viz/1.2.htm';
 		}
 	if (counter==3) {
-		graph = 'assets/data_viz/1.3_OA.htm';
+		graph = 'assets/data_viz/1.3.htm';
 		}
 	if (counter==4) {
-		graph = 'assets/data_viz/2.1_F.htm';
+		graph = 'assets/data_viz/2.1.htm';
 		counter = 0;
 		}
 	document.getElementById(id).src = graph
