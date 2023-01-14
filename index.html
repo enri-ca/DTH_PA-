@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head>change_css('assets/css/pre1800.css')
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -26,6 +26,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Template Custom JS File -->
+  <script src="assets/js/added.js"></script>
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.9.0
@@ -538,17 +540,61 @@
 </div>
 </div-->
 		
-		<!--fine-->
+		<!--1ST SLIDER OA-->
         <div class="row">
           <div id="slider" class="col-lg-12 col-md-12 icon-box">
-		    <a id="next" href="#" onclick="slide_slides()" class="control_next">></a>
-			<a id="prev" href="#" onclick="slide_slides()" class="control_prev"><</a>
+		    <a href="#OA_dv" onclick="slide_slides(a)" class="control_next">></a>
+			<a href="#OA_dv" onclick="slide_articles(1)" class="control_prev"><</a>
 			<!--div class="icon"><i class="bi bi-briefcase"></i></div-->
-            <h4 class="title"><a href="#">Works of art</a></h4>
-			<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://enri-ca.github.io/EPDS_EZ/OA_Countries0.htm" height="525" width="100%"></iframe>
-            <class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <h4 class="title"><id="OA_dv">Works of art</h4>
+			<p>
+			<iframe id="igraph1" scrolling="no" style="border:none;" seamless="seamless" src="assets/data_viz/1.1_OA.htm" height="525" width="80%"></iframe>
+            </p>
+			<!--class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p-->
           </div>
 		 </div>
+		 <!-- END 1ST SLIDER-->
+		 <!-- 2ND SLIDER F-->
+		 <div class="row">
+          <div id="slider" class="col-lg-12 col-md-12 icon-box">
+		    <a href="#F_dv" onclick="slide_slides(b)" class="control_next">></a>
+			<a href="#F_dv" onclick="slide_slides(2)" class="control_prev"><</a>
+			<!--div class="icon"><i class="bi bi-briefcase"></i></div-->
+            <h4 class="title"><id="F_dv">Photographs and photographers</h4>
+			<p>
+			<iframe id="igraph2" scrolling="no" style="border:none;" seamless="seamless" src="assets\data_viz\2.1_F.htm" height="525" width="80%"></iframe>
+            </p>
+			<!--class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p-->
+          </div>
+		 </div>
+		 <!-- END 2ND SLIDER-->
+		 <!-- 3RD SLIDER NOTES-->
+        <div class="row">
+          <div id="slider" class="col-lg-12 col-md-12 icon-box">
+		    <a id="next" href="#UN_dv" onclick="slide_slides('assets/data_viz/3.3_N.htm')" class="control_next">></a>
+			<a id="prev" href="#UN_dv" onclick="slide_slides()" class="control_prev"><</a>
+			<!--div class="icon"><i class="bi bi-briefcase"></i></div-->
+            <h4 class="title"><id="UN_dv">Unstructured annotations</h4>
+			<p>
+			<iframe id="igraph3" scrolling="no" style="border:none;" seamless="seamless" src="assets\data_viz\3.1_N.htm" height="525" width="80%"></iframe>
+            </p>
+          </div>
+		 </div>
+		 <!-- END 3RD SLIDER-->
+		 <!-- 4TH SLIDER ALL-->
+        <div class="row">
+          <div id="slider" class="col-lg-12 col-md-12 icon-box">
+		    <!--a id="next" href="#igraph" onclick="slide_slides('assets/data_viz/OA_Countries0.htm')" class="control_next">></a-->
+			<a id="prev" href="#M_dv" onclick="slide_articles()" class="control_prev"><</a>
+			<!--div class="icon"><i class="bi bi-briefcase"></i></div-->
+            <h4 class="title"><id="M_dv">All togheter</h4>
+			<p>
+			<iframe id="igraph4" scrolling="no" style="border:none;" seamless="seamless" src="assets\data_viz\4.1mov.htm" height="525" width="80%"></iframe>
+            </p>
+          </div>
+		 </div>
+		 <!-- END 4TH SLIDER-->
+
 		<!--h1>Incredibly Basic Slider</h1-->
 <!--div id="slider" class="col-lg-12 col-md-12">
   <a href="#" class="control_next">></a>
