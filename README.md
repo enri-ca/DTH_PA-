@@ -12,11 +12,10 @@ The website presenting the project is accessible [here](https://enri-ca.github.i
 - Enrica Zani: Data extraction and cleaning, data analysis - content editing, data visualization - Web development and digital storytelling
 
 <hr>
+The <b>project and derivative data</b> are distributed under a CC-BY-SA Creative Commons Attribution-ShareAlike 3.0 License.<br>
 <b>Original images and data are published for illustrative and didactical purposes only</b>.</br>
 For any request of use, please refer to:
 <ul>
  <li><b>images CC-BY-NC-ND</b>: <a href="mailto:abis.arti-av@unibo.it">Biblioteca delle Arti. Sezione di Arti visive "I. B. Supino". Alma Mater Studiorum Università di Bologna</a></li>
  <li><b>OA and F records</b>: <a href="mailto:fondazionezeri.fototeca@unibo.it">Fondazione "Federico Zeri"</a>.</li>
  </ul>
-
-The <b>project and derivative data</b> are distributed under a CC-BY-SA Creative Commons Attribution-ShareAlike 3.0 License.
