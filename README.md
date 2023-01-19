@@ -12,7 +12,8 @@ The website presenting the project is accessible [here](https://enri-ca.github.i
 - Enrica Zani: Data extraction and cleaning, data analysis - content editing, data visualization - Web development and digital storytelling
 
 <hr>
-The <b>project and derivative data</b> are distributed under a CC-BY-SA Creative Commons Attribution-ShareAlike 3.0 License.<br>
+The <b>project and derivative data</b> are distributed under a CC-BY-SA Creative Commons Attribution-ShareAlike 3.0 License.</br>
+
 <b>Original images and data are published for illustrative and didactical purposes only</b>.</br>
 For any request of use, please refer to:
 <ul>
