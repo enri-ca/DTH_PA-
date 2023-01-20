@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>change_css('assets/css/pre1800.css')
+<head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -26,8 +26,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <!-- Template Custom JS File -->
-  <script src="assets/js/added.js"></script>
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.9.0
@@ -49,23 +47,33 @@
       <div class="profile">
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">PA - creator</a></h1>
-        <div class="social-links mt-3 text-center">
+		<p>Looking for a XIXth cent. art historian identity</p>
+        <!--div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
           <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
+        </div-->
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#data_visualization" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Data visualization</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <!--li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li-->
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-book"></i> <span>About</span></a></li>
+          <!--li><a href="#project" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>The project</span></a></li-->
+          <li><a href="#data" class="nav-link scrollto"><i class="bx bx-server"></i> <span>The data</span></a></li>        
+		  <!--li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li-->
+          <li><a href="#data_visualization" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Data visualization</span></a>
+		  <!--ul>
+			<li><a href="#data_visualization" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Data visualization</span></li>
+			<li><a href="#data_visualization" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Data visualization</span></li>		  
+		    <li><a href="#data_visualization" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Data visualization</span></li>
+		  </ul-->
+		  </li>
+          <li><a href="#whom" class="nav-link scrollto"><i class="bx bx-user"></i> <span>So, who am I?</span></a></li>
+          
+		  <!--li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li-->
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -75,7 +83,8 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Partizione Antica - creator</h1>
-      <p>I <span class="typed" data-typed-items="was first there in 1861, saw it in 1865, saw her in Chiusi in 1866, saw him in 1887 and 1893, saw some of these remains in the sacristy of the Duomo in 1892"></span>
+      <p>I <span class="typed" data-typed-items="was first there in 1861, saw it in 1865, saw her in Chiusi in 1866, saw him in 1887 and 1893, saw some of these remains in the sacristy of the Duomo in 1892"></span></p>
+		<p>Looking for a XIX cent. art historian identity exploring high structured metadata and RDF datasets</p>
     </div>
 	
   </section><!-- End Hero -->
@@ -87,11 +96,86 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>About</h2>
-          <p>The "Partizione Antica" of the Supino Archival fund has always been valorized for its stunning photograph images... But what about the texts annotated on the B-side of this typical art historian's collection? Which difficulties in trying an Archival Digital edition of this so mixed material?
-		  The project try to exploit the best of both TEI annotated texts and IIIF images.</p>
+          <h2>About - the topic</h2>
+          <p class="description">The "Partizione Antica" of the Supino Archival fund - belonging to the Biblioteca delle Arti dell'Alma Mater Studiorum Università di Bologna -
+		  is a special subfund that has always been valorized for 
+		  its stunning photograph images and their documental importance for history of art... <br>
+		  It has been catalogued in the '90s from the Archivio Storico of the University of Bologna, and their data are available
+		  in the online public access catalogue Catalogo del Polo Bolognese, and more recentely from the Zeri fundation according to a 
+		  more specific format.</p>
+		  <p>
+		  <b> seconda parte 800, annotato</b>
+		  Nevertheless, despite the fund have been studied, catalogued and digitized,
+		  the identity of its creator remains unknown. </p>
+		  <p>Uncover traks and connections from available metadata and unstructured data, 
+		  could help in orienting further exploration about the Partizione Antica creator identity.</p>
+		  <!--But what about its creator? Can we and their texts annotated on the verso of this typical art historian's collection? Which difficulties in trying an Archival Digital edition of this so mixed material?
+		  The project try to exploit the best of both TEI annotated texts and IIIF images.</p-->
         </div>
-
+		
+        <div class="section-title" id="project">
+          <h2>The project</h2>
+          <p></p>
+        </div>
+		
+        <div class="section-title" id="data">
+          <h2>The data</h2>	  
+          <p>The research started from data extraction of the Supino Partizione Antica fund records
+		  provided from the Federico Zeri Foundation catalogue: 
+		  the original data counted <b>3.260 F records</b> and <b>2.634 OA records</b> - respectively for the photographs, 
+		  and for the depicted works of art. The data count on either well structured metadata using controlled vocabularies,
+		  as well as unstructured free-text fields.</p>
+		  <p>Usinf both this kind of data, the investigation try to answer some question to better identify 
+		  our misterious collector:</p>
+		  
+		  <p>
+		  <ul>
+		  <li><b>What</b> are the most frequent <b>work of art types</b>? <b>Where</b> the depicted works of art were located?</li>
+		  <li><b>What</b> are the most "used" <b>photographers</b> and <b>where</b> they have their ateliers?</li>
+		  <li>Where <b>anonymous photographs</b> have been shot?</li>
+		  <li><b>How many</b> photographs records report <b>transcribed annotations</b>?</li>
+		  <li>Which dates entities can be detected in the  <b>transcribed annotations</b>?</li>
+		  <li><b>When</b> the annotator have written their <b>notes</b>?</li>
+			<li>Can be detected some "personal experiences" from <b>handwritten annotations</b>? If yes, <b>what</b>?</li>
+			</ul>
+			</p>
+			<p>
+		Data have been enhanced with more informations coming from wikidata sparql queries or geolocation information.<br>
+		All the process is illustrated in the Jupyter notebook.<br>
+		The original data have been used for illustrative and didactical purposes only: all the credits and reuse authorizations must be asked to Federico Zeri Foundation.
+</p>
+        </div>
+        <div class="section-title" id="whom">
+          <h2>Who am I?</h2>
+		  <div>
+		  <h4>Works of art</h4>
+          <p>According to the Zeri metadata, the most present work of art 
+		  typology in the picture I collected is <b>sculpture (62%), followed by architecture (26%)</b>. <br>
+			The works of art are mainly located in <b>Italy (62%), Greece (12%) and 
+			mediterranean area</b>, with an atypical <b>little indian nucleous</b> of 18 photographs.</p>
+		</div>
+		<div>
+		<h4>Photographers</h4>
+			<p>Most of my photographs are from <b>unindentified photograpers (49%)</b>, 
+			the rest comes from well known <b>photographer's ateliers specialized in history of art</b> 
+			such as Alinari (20%), Moscioni, Brogi, Sommer (5% each), Laurent, Incorpora, Giraudon, etc. 
+			for a total of n. photographers.</br>
+			Their ateliers are located ....</br>
+			The anonymous photographs I collected, have been shooted, as the whole collection,
+			in Italy, Grece and mediterranean area but with a higher number of photographs from ...</p>
+		</div>
+		<div>
+		<h4>Notes</h4>
+			<p>More than <b>half of the records (55%) report transcriptions</b> of mine annotation, 
+			even if some of them are incomplete (12%).<br>
+			<p>In x of them I reported, in first person, my thoughts, impressions, experiences: 
+			I am quite obsessed by <b>medals</b>; I used to refere to several person... I reported some of my <b>movements</b> 
+			(1861 Corneto, 1865 Atene, 1866 Chiusi, 1887 Olympia, 1892 Palermo, 1893 Olympia, 1894 Corfu).<br>
+			These information togheter with other analysis, confirm that I have been 
+			<b>active mainly in the second half of XIXth century</b>.
+			</p>
+        </div>
+		</div>
         <!--div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
@@ -287,7 +371,7 @@
     </section><!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <section id="who" class="resume">
       <div class="container">
 
         <div class="section-title">
@@ -521,7 +605,6 @@
 
         <div class="section-title">
           <h2>Data visualization</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 		<!--dai-->
 
@@ -542,54 +625,56 @@
 		
 		<!--1ST SLIDER OA-->
         <div class="row">
-          <div id="slider" class="col-lg-12 col-md-12 icon-box">
-		    <a href="#OA_dv" onclick="slide_slides(a)" class="control_next">></a>
-			<a href="#OA_dv" onclick="slide_articles(1)" class="control_prev"><</a>
+          <div id="slider1" class="col-lg-12 col-md-12 icon-box slider2">
+		    <a href="#OA_dv" onclick="slide_slides(1)" class="control_next">&raquo;</a>
+			<a href="#OA_dv" onclick="slide_slides(-1)" class="control_prev">&laquo;</a>
 			<!--div class="icon"><i class="bi bi-briefcase"></i></div-->
-            <h4 class="title"><id="OA_dv">Works of art</h4>
-			<p>
-			<iframe id="igraph1" scrolling="no" style="border:none;" seamless="seamless" src="assets/data_viz/1.1.htm" height="525" width="80%"></iframe>
-            </p>
-			<!--class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p-->
+            <h3 class="title"><id="OA_dv">Depicted works of art</h3>
+			<p>Metadata about kind from OA records have been joined to related F records</p>
+			<p>Which kind of works of art are mainly depicted? Where do they are located?</p>
+			<iframe id="igraph1" scrolling="no" style="border:none;" seamless="seamless" src="data/2_data_viz/1.1.html" height="525" width="80%"></iframe>
           </div>
 		 </div>
 		 <!-- END 1ST SLIDER-->
 		 <!-- 2ND SLIDER F-->
 		 <div class="row">
-          <div id="slider" class="col-lg-12 col-md-12 icon-box">
-		    <a href="#F_dv" onclick="slide_slides()" class="control_next">></a>
-			<a href="#F_dv" onclick="slide_slides()" class="control_prev"><</a>
+          <div id="slider2" class="col-lg-12 col-md-12 icon-box slider2">
+		    <a href="#F_dv" onclick="slide_slides(2)" class="control_next">&raquo;</a>
+			<a href="#F_dv" class="control_prev">&laquo;</a>
 			<!--div class="icon"><i class="bi bi-briefcase"></i></div-->
             <h4 class="title"><id="F_dv">Photographs and photographers</h4>
-			<p>
-			<iframe id="igraph2" scrolling="no" style="border:none;" seamless="seamless" src="assets\data_viz\2.1.htm" height="525" width="80%"></iframe>
-            </p>
+			<p>Starting from F records data, more information about photographer location has been looked through wikidata. Geolocation has been added too.</p>
+			<p>What are the most "used" photographers? Where they have their ateliers? Where anonymous photographs have been shot?</p>
+			<iframe id="igraph2" scrolling="no" style="border:none;" seamless="seamless" src="data/2_data_viz/2.1.html" height="525" width="80%"></iframe>
 			<!--class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p-->
           </div>
 		 </div>
 		 <!-- END 2ND SLIDER-->
 		 <!-- 3RD SLIDER NOTES-->
         <div class="row">
-          <div id="slider" class="col-lg-12 col-md-12 icon-box">
-		    <a id="next" href="#UN_dv" onclick="slide_slides('assets/data_viz/3.3.htm')" class="control_next">></a>
-			<a id="prev" href="#UN_dv" onclick="slide_slides()" class="control_prev"><</a>
+          <div id="slider3" class="col-lg-12 col-md-12 icon-box slider2">
+		    <a id="next" href="#UN_dv" onclick="slide_slides(3)" class="control_next">&raquo;</a>
+			<a id="prev" href="#UN_dv" class="control_prev">&laquo;</a>
 			<!--div class="icon"><i class="bi bi-briefcase"></i></div-->
             <h4 class="title"><id="UN_dv">Unstructured annotations</h4>
-			<p>
-			<iframe id="igraph3" scrolling="no" style="border:none;" seamless="seamless" src="assets\data_viz\3.1.htm" height="525" width="80%"></iframe>
-            </p>
+			<p></p>
+			<p>How many photographs records report transcribed annotations? When the annotator have written their notes (Which dates entities can be detected in the transcribed annotations)?</p>			
+			<iframe id="igraph3" scrolling="no" style="border:none;" seamless="seamless" src="data/2_data_viz/3.1.html" height="525" width="90%"></iframe>
           </div>
 		 </div>
 		 <!-- END 3RD SLIDER-->
 		 <!-- 4TH SLIDER ALL-->
         <div class="row">
-          <div id="slider" class="col-lg-12 col-md-12 icon-box">
+          <div id="slider4" class="col-lg-12 col-md-12 icon-box slider2">
 		    <!--a id="next" href="#igraph" onclick="slide_slides('assets/data_viz/OA_Countries0.htm')" class="control_next">></a-->
-			<a id="prev" href="#M_dv" onclick="slide_slides()" class="control_prev"><</a>
+			<a id="prev" href="#M_dv" onclick="slide_slides(4)" class="control_prev">&laquo;</a>
 			<!--div class="icon"><i class="bi bi-briefcase"></i></div-->
             <h4 class="title"><id="M_dv">All togheter</h4>
-			<p>
-			<iframe id="igraph4" scrolling="no" style="border:none;" seamless="seamless" src="assets\data_viz\4.1.htm" height="525" width="80%"></iframe>
+			<p>Starting from the x annotations reporting first-person experiences, 
+			it has been possible to detect some place-time pairs presence of the collector.</p>
+			<p>These data have been reported on a map toghether with the complete annotation visible using mousehover</p>
+			<p>Where and when the creator is attested?</p>
+			<iframe id="igraph4" scrolling="no" style="border:none;" seamless="seamless" src="data/2_data_viz/4.1.html" height="525" width="80%"></iframe>
             </p>
           </div>
 		 </div>
@@ -871,6 +956,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+    <!-- Template Custom JS File -->
+  <script src="assets/js/added.js"></script>
+
 
 </body>
 
