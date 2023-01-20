@@ -4,31 +4,64 @@
 	
 	/**/
 /*$(document).ready(function(){})*/
+
 counter = 1
-function slide_slides() /*(selection){
-	if (selection == a){
-		id = "igraph1"};}
-	if (selection == b){
-		id = "igraph2"};}
-	if (selection == c){
-		id = "igraph3"};}
-	if (selection == d){
-		id = "igraph4"};}*/	
-	let id = "igraph1";
-	counter=counter+1;
+function slide_slides(selection){/*selection){*/
+	if (selection == 1){
+		id = "igraph1";
+		}
+	if (selection == 2){
+		id = "igraph2";
+		}
+	if (selection == 3){
+		id = "igraph3";
+		}
+	if (selection == 4){
+		id = "igraph4";
+		}
+		
+	graph = document.getElementById(id).src;
+
+/*	
+container = document.querySelector("#slider4");
+if (container.querySelectorAll("a.control_next") {
+		counter=counter+1;
+		}
+	
+	if (a.classList.contains('control_prev')) {
+		if (counter > 1){
+			counter=counter-1;
+		}
+		if (counter <= 1){
+			counter=4;
+		}
+	}*/
+	
+	counter = counter+1;
 	if (counter==2) {
-		graph = 'assets/data_viz/1.2.htm';
+		graph = graph.replace('.1.html', '.2.html');
 		}
 	if (counter==3) {
-		graph = 'assets/data_viz/1.3.htm';
+		graph = graph.replace('.2.html', '.3.html');
 		}
 	if (counter==4) {
-		graph = 'assets/data_viz/2.1.htm';
-		counter = 0;
+		graph = graph.replace('.3.html', '.1.html')
+		counter = 1;
 		}
+	if (counter==0) {
+		graph = graph.replace('.1.html', '.3.html');
+		}
+	if (counter==-1) {
+		graph = graph.replace('.3.html', '.2.html')
+		}
+	if (counter==-2) {
+		graph = graph.replace('.2.html', '.1.html');
+		counter = 1;
+		}
+	
 	document.getElementById(id).src = graph
 	}
-
+	
 /*
 let
 
