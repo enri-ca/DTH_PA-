@@ -220,7 +220,7 @@
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: true /**false**/
     },
     slidesPerView: 'auto',
     pagination: {
@@ -258,4 +258,4 @@
    */
   new PureCounter();
 
-})
+})()

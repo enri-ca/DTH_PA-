@@ -60,8 +60,29 @@ if (container.querySelectorAll("a.control_next") {
 		}
 	
 	document.getElementById(id).src = graph
-	}
+	};
+
+
+
+function bigImg(x) {
+x.style.width = "200%"; /*32-64 px*/}
+
+function normalImg(x) {
+x.style.width = "100%"; /*32-64 px*/}
+
+
+
 	
+/*$(".testimonial-img").onmouseout(
+	function normalImg(x) {
+  x.style.height = "100%"; /*32-64 px
+
+$(document).ready(function(){
+		$(".testimonial-img").on("mouseover", function(){
+									x.style.width = "200%";
+									})
+							});
+
 /*
 let
 
