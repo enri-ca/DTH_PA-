@@ -1,4 +1,4 @@
-# EPDS_EZ.github.io
+# Partizione Antica. Looking for a XIXth century art historian
 <!--#[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/enri-ca.github.io/EPDS_EZ/main)-->
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/enri-ca/EPDS_EZ/main)
