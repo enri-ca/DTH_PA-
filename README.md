@@ -9,14 +9,17 @@ The project aims to visualizes some characteristics of the Partizione Antica of 
 
 The website presenting the project is accessible [here](https://enri-ca.github.io/EPDS_EZ/). 
 
-- Enrica Zani: data extraction and cleaning, data analysis - content editing, data visualization - web development and digital storytelling
-
 <hr>
+<p>
 The <b>project and derivative data</b> are distributed under a CC-BY-SA Creative Commons Attribution-ShareAlike 3.0 License.</br>
+- Enrica Zani: data extraction and cleaning, data analysis - content editing, data visualization - web development and digital storytelling</br>
+</p>
 
-<b>Original images and data are published for illustrative and didactical purposes only</b>.</br>
+<p>
+ <b>Original images and data are published for illustrative and didactical purposes only</b>.</br>
 For any request of use, please refer to:
 <ul>
  <li><b>images CC-BY-NC-ND</b>: <a href="mailto:abis.arti-av@unibo.it">Biblioteca delle Arti. Sezione di Arti visive "I. B. Supino". Alma Mater Studiorum Università di Bologna</a></li>
  <li><b>OA and F records</b>: <a href="mailto:fondazionezeri.fototeca@unibo.it">Fondazione "Federico Zeri"</a>.</li>
  </ul>
+</p>
