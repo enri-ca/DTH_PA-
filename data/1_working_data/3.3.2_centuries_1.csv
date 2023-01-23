@@ -1,0 +1,324 @@
+,century,status,count
+0,sec. I,complete,44
+1,sec. I,incomplete,15
+2,sec. I,missing,35
+3,sec. I ,incomplete,1
+4,sec. I a.C.,complete,31
+5,sec. I a.C.,incomplete,14
+6,sec. I a.C.,missing,26
+7,"sec. I a.C.,sec. III",complete,1
+8,"sec. I a.C.,sec. III",incomplete,1
+9,"sec. I a.C.,sec. XIII",missing,2
+10,"sec. I a.C.,sec. XIII,sec. XVI,sec. XVI/ XVII",complete,1
+11,"sec. I a.C.,sec. XIII,sec. XVI,sec. XVI/ XVII",incomplete,1
+12,"sec. I a.C.,sec. XV",incomplete,1
+13,"sec. I a.C.,sec. XV",missing,3
+14,sec. I a.C./ I,complete,16
+15,sec. I a.C./ I,incomplete,2
+16,sec. I a.C./ I,missing,17
+17,sec. I a.C./ II,complete,2
+18,"sec. I a.C./ V,sec. XV",missing,1
+19,sec. I d.C.,missing,2
+20,"sec. I,sec. XIX",incomplete,1
+21,"sec. I,sec. XVIII",missing,1
+22,sec. I-II,complete,2
+23,sec. I/ II,complete,16
+24,sec. I/ II,incomplete,8
+25,sec. I/ II,missing,16
+26,"sec. I/ II,sec. I a.C.",complete,1
+27,sec. I/ III,complete,1
+28,sec. I/ III,missing,3
+29,sec. II,complete,65
+30,sec. II,incomplete,15
+31,sec. II,missing,42
+32,sec. II a.C.,complete,17
+33,sec. II a.C.,incomplete,9
+34,sec. II a.C.,missing,7
+35,"sec. II a.C.,sec. XVII",incomplete,1
+36,sec. II a.C./ I,complete,2
+37,sec. II a.C./ I,missing,1
+38,sec. II a.C./ II,missing,1
+39,"sec. II,sec. XI",missing,2
+40,"sec. II,sec. XV",missing,1
+41,sec. II/ I a.C.,complete,5
+42,sec. II/ I a.C.,missing,3
+43,"sec. II/ I a.C.,sec. IX",missing,1
+44,"sec. II/ I a.C.,sec. XVIII",missing,1
+45,sec. II/ III,complete,3
+46,sec. II/ III,incomplete,1
+47,sec. II/ III,missing,5
+48,"sec. II/ III,sec. XIII",incomplete,1
+49,sec. III,complete,25
+50,sec. III,incomplete,10
+51,sec. III,missing,23
+52,sec. III a.C.,complete,14
+53,sec. III a.C.,incomplete,4
+54,sec. III a.C.,missing,12
+55,"sec. III a.C.,sec. XVIII",complete,2
+56,"sec. III,sec. XV",complete,1
+57,sec. III/ I a.C.,complete,10
+58,sec. III/ I a.C.,missing,2
+59,sec. III/ II a.C.,complete,4
+60,sec. III/ II a.C.,missing,4
+61,sec. III/ IV,missing,4
+62,"sec. III/IV,sec. XII,sec. XIX",missing,1
+63,sec. IV,complete,29
+64,sec. IV,incomplete,22
+65,sec. IV,missing,8
+66,sec. IV a.C.,complete,110
+67,sec. IV a.C.,incomplete,18
+68,sec. IV a.C.,missing,17
+69,sec. IV a.C./ I,missing,1
+70,"sec. IV,sec. VI,sec. XIII,sec. XIX",complete,1
+71,"sec. IV,sec. XIV",complete,2
+72,sec. IV/ I a.C.,missing,1
+73,sec. IV/ III a.C.,complete,2
+74,sec. IV/ III a.C.,incomplete,3
+75,sec. IV/ III a.C.,missing,2
+76,sec. IV/ V,missing,2
+77,"sec. IV/ V,sec. XII",missing,1
+78,sec. IV/ VI,missing,2
+79,sec. IX,complete,1
+80,sec. IX,missing,7
+81,sec. IX a.C.,missing,3
+82,"sec. IX,sec. VIII",complete,1
+83,"sec. IX,sec. X/ XII,sec. XV,sec. XVI,sec. XIX",complete,1
+84,"sec. IX,sec. XI,sec. XIII",complete,1
+85,"sec. IX,sec. XI,sec. XIII",incomplete,1
+86,"sec. IX,sec. XI,sec. XIII",missing,3
+87,"sec. IX,sec. XII/ XIII,sec. XVIII",complete,1
+88,"sec. IX,sec. XVII",missing,1
+89,sec. IX/ VIII a.C.,missing,1
+90,sec. IX/ X,missing,2
+91,sec. IX/ XI,complete,1
+92,sec. IX/ XI,missing,1
+93,sec. IX/ XIII,complete,1
+94,sec. IX/ XIII,missing,1
+95,sec. V,complete,10
+96,sec. V,incomplete,3
+97,sec. V,missing,17
+98,sec. V a.C.,complete,122
+99,sec. V a.C.,incomplete,18
+100,sec. V a.C.,missing,35
+101,"sec. V a.C.,sec. IV a.C.,sec. I/ II",missing,3
+102,"sec. V,sec. XI",incomplete,1
+103,"sec. V,sec. XIII,sec. XV,sec. XVI,sec. XVIII",incomplete,2
+104,sec. V/ III a.C.,missing,7
+105,sec. V/ IV a.C.,complete,3
+106,sec. V/ IV a.C.,incomplete,1
+107,sec. V/ IV a.C.,missing,2
+108,sec. V/ VI,complete,3
+109,sec. V/ VI,missing,10
+110,sec. V/ VI a.C.,incomplete,1
+111,sec. V/ VI a.C.,missing,2
+112,sec. VI,complete,8
+113,sec. VI,missing,24
+114,sec. VI a.C.,complete,33
+115,sec. VI a.C.,incomplete,6
+116,sec. VI a.C.,missing,20
+117,"sec. VI,sec. VII",complete,1
+118,"sec. VI,sec. X",complete,1
+119,sec. VI/ I a.C.,complete,1
+120,sec. VI/ I a.C.,incomplete,1
+121,sec. VI/ III a.C.,complete,1
+122,sec. VI/ III a.C.,missing,1
+123,sec. VI/ V a.C.,complete,4
+124,sec. VI/ V a.C.,incomplete,1
+125,sec. VI/ VII,missing,1
+126,sec. VII,complete,3
+127,sec. VII,missing,7
+128,sec. VII a.C.,missing,2
+129,"sec. VII,sec. IX",complete,1
+130,"sec. VII,sec. IX,sec. XIII",incomplete,1
+131,"sec. VII,sec. VIII",missing,3
+132,"sec. VII,sec. XI",complete,1
+133,sec. VII/ V a.C.,complete,3
+134,sec. VII/ V a.C.,missing,4
+135,sec. VII/ VI a.C.,complete,2
+136,sec. VII/ VI a.C.,incomplete,2
+137,sec. VII/ VIII,missing,1
+138,sec. VIII,complete,4
+139,sec. VIII,missing,1
+140,sec. VIII a.C.,missing,4
+141,"sec. VIII,sec. XI,sec. XII,sec. XVIII,sec. XIX",incomplete,1
+142,"sec. VIII/ IX,sec. XI",complete,1
+143,sec. VIII/ V a.C.,missing,1
+144,sec. VIII/ X,missing,2
+145,"sec. VIII/ X,sec. XIII/ XIV,sec. XVI",missing,1
+146,sec. VIII/ XI,complete,1
+147,sec. X,complete,2
+148,sec. X,incomplete,2
+149,sec. X,missing,5
+150,"sec. X,sec. XII",complete,1
+151,sec. X/ XI,complete,4
+152,sec. X/ XI,incomplete,1
+153,sec. X/ XI,missing,2
+154,sec. XI,complete,14
+155,sec. XI,incomplete,4
+156,sec. XI,missing,19
+157,"sec. XI,sec. XIII,sec. XIV",complete,1
+158,"sec. XI,sec. XIX",complete,1
+159,sec. XI/ XII,complete,4
+160,sec. XI/ XII,incomplete,2
+161,sec. XI/ XII,missing,10
+162,"sec. XI/ XII,sec. XIII",complete,1
+163,"sec. XI/ XII,sec. XVII",missing,1
+164,sec. XI/ XIII,missing,2
+165,sec. XI/ XIV,complete,1
+166,sec. XI/ XIV,missing,1
+167,sec. XI/ XV,missing,2
+168,sec. XI/XII,missing,1
+169,sec. XII,complete,48
+170,sec. XII,incomplete,20
+171,sec. XII,missing,87
+172,"sec. XII,sec. XII/ XIII",complete,1
+173,"sec. XII,sec. XIII",complete,2
+174,"sec. XII,sec. XIII",missing,1
+175,"sec. XII,sec. XIII,sec. XIV",incomplete,1
+176,"sec. XII,sec. XIII,sec. XIV",missing,1
+177,"sec. XII,sec. XIII-XIV",missing,1
+178,"sec. XII,sec. XIII/ XIV",complete,1
+179,"sec. XII,sec. XIII/ XIV,sec. XIV",missing,1
+180,"sec. XII,sec. XIII/ XIV,sec. XV,sec. XVI",complete,1
+181,"sec. XII,sec. XIV",complete,3
+182,"sec. XII,sec. XIV/ XV,sec. XVIII",complete,1
+183,"sec. XII,sec. XIV/ XV,sec. XVIII",missing,3
+184,"sec. XII,sec. XIX",complete,1
+185,"sec. XII,sec. XIX",missing,1
+186,"sec. XII,sec. XV",complete,2
+187,"sec. XII,sec. XV",missing,1
+188,"sec. XII,sec. XVI",complete,1
+189,"sec. XII,sec. XVI",missing,1
+190,"sec. XII,sec. XVIII",complete,1
+191,sec. XII/ XIII,complete,6
+192,sec. XII/ XIII,incomplete,4
+193,sec. XII/ XIII,missing,17
+194,"sec. XII/ XIII,sec. XIII",complete,1
+195,"sec. XII/ XIII,sec. XIV",complete,2
+196,sec. XII/ XIV,complete,4
+197,sec. XII/ XIV,missing,1
+198,sec. XII/ XV,missing,3
+199,sec. XIII,complete,64
+200,sec. XIII,incomplete,33
+201,sec. XIII,missing,91
+202,sec. XIII a.C.,complete,4
+203,sec. XIII a.C.,incomplete,1
+204,sec. XIII a.C.,missing,6
+205,"sec. XIII,sec. XIV",complete,2
+206,"sec. XIII,sec. XIV",incomplete,1
+207,"sec. XIII,sec. XIV,sec. XIX",complete,1
+208,"sec. XIII,sec. XIV,sec. XV",complete,1
+209,"sec. XIII,sec. XIV,sec. XVI",missing,1
+210,"sec. XIII,sec. XIX",complete,2
+211,"sec. XIII,sec. XIX",missing,3
+212,"sec. XIII,sec. XV",complete,1
+213,"sec. XIII,sec. XV",missing,1
+214,"sec. XIII,sec. XV,sec. XIV,sec. XIV",missing,1
+215,"sec. XIII,sec. XVI,sec. XVII",complete,1
+216,sec. XIII/ XII a.C.,missing,3
+217,sec. XIII/ XIV,complete,10
+218,sec. XIII/ XIV,incomplete,1
+219,sec. XIII/ XIV,missing,13
+220,"sec. XIII/ XIV,sec. XIII",complete,1
+221,"sec. XIII/ XIV,sec. XIII",missing,1
+222,"sec. XIII/ XIV,sec. XIV",missing,1
+223,"sec. XIII/ XIV,sec. XIV,sec. XIV/ XV,sec. XV,sec. XV",missing,2
+224,"sec. XIII/ XIV,sec. XIV,sec. XIX",complete,1
+225,"sec. XIII/ XIV,sec. XIV,sec. XIX",missing,2
+226,"sec. XIII/ XIV,sec. XIV,sec. XV,sec. XVI",complete,2
+227,"sec. XIII/ XIV,sec. XVII,sec. XIX,sec. XIII",missing,2
+228,"sec. XIII/ XIV,sec. XX",missing,1
+229,sec. XIII/ XV,missing,2
+230,sec. XIII/ XVI,complete,2
+231,sec. XIII/ XVI,missing,1
+232,sec. XIV,complete,107
+233,sec. XIV,incomplete,33
+234,sec. XIV,missing,166
+235,sec. XIV a.C.,incomplete,1
+236,sec. XIV a.C.,missing,2
+237,"sec. XIV,sec. XIII",missing,2
+238,"sec. XIV,sec. XIV,sec. XIV",complete,1
+239,"sec. XIV,sec. XIX",complete,1
+240,"sec. XIV,sec. XV",complete,1
+241,"sec. XIV,sec. XV",incomplete,1
+242,"sec. XIV,sec. XV",missing,2
+243,"sec. XIV,sec. XV,sec. XVI",complete,1
+244,"sec. XIV,sec. XV,sec. XVI,sec. XVII",missing,1
+245,"sec. XIV,sec. XVI",incomplete,1
+246,"sec. XIV,sec. XX",missing,2
+247,sec. XIV/ XIII a.C.,missing,4
+248,sec. XIV/ XV,complete,10
+249,sec. XIV/ XV,incomplete,2
+250,sec. XIV/ XV,missing,13
+251,"sec. XIV/ XV,sec. XVI",missing,1
+252,sec. XIV/ XVI,complete,1
+253,sec. XIV/ XVI,missing,4
+254,sec. XIX,complete,41
+255,sec. XIX,incomplete,1
+256,sec. XIX,missing,84
+257,sec. XIX a.C.,missing,1
+258,"sec. XIX,sec. XIX",missing,2
+259,sec. XV,complete,236
+260,sec. XV,incomplete,86
+261,sec. XV,missing,207
+262,sec. XV a.C.,complete,3
+263,sec. XV a.C.,incomplete,3
+264,"sec. XV,sec. III",complete,1
+265,"sec. XV,sec. XIII,sec. XV,sec. XVI,sec. XVI",missing,2
+266,"sec. XV,sec. XIX",complete,1
+267,"sec. XV,sec. XIX",incomplete,1
+268,"sec. XV,sec. XIX",missing,1
+269,"sec. XV,sec. XV",complete,1
+270,"sec. XV,sec. XV",incomplete,1
+271,"sec. XV,sec. XV",missing,1
+272,"sec. XV,sec. XV,sec. XVII,sec. XVIII/ XIX",complete,1
+273,"sec. XV,sec. XV/ XVI",missing,1
+274,"sec. XV,sec. XVI",incomplete,1
+275,"sec. XV,sec. XVI",missing,1
+276,"sec. XV,sec. XVI,sec. XVIII",complete,1
+277,"sec. XV,sec. XVII",incomplete,1
+278,"sec. XV,sec. XVIII",complete,1
+279,sec. XV/ XIII a.C.,complete,2
+280,sec. XV/ XIII a.C.,missing,2
+281,sec. XV/ XVI,complete,14
+282,sec. XV/ XVI,incomplete,3
+283,sec. XV/ XVI,missing,15
+284,sec. XVI,complete,143
+285,sec. XVI,incomplete,32
+286,sec. XVI,missing,138
+287,sec. XVI a.C.,complete,5
+288,"sec. XVI,sec. XV",missing,1
+289,"sec. XVI,sec. XVI",incomplete,2
+290,"sec. XVI,sec. XVI",missing,2
+291,"sec. XVI,sec. XVI,sec. XVII,sec. XVII",missing,1
+292,sec. XVI/ XI a.C.,complete,1
+293,sec. XVI/ XI a.C.,missing,1
+294,sec. XVI/ XVII,complete,2
+295,sec. XVI/ XVII,incomplete,1
+296,sec. XVI/ XVII,missing,1
+297,sec. XVII,complete,18
+298,sec. XVII,incomplete,2
+299,sec. XVII,missing,70
+300,sec. XVII/ XVIII,complete,1
+301,sec. XVII/ XVIII,missing,1
+302,sec. XVIII,complete,7
+303,sec. XVIII,incomplete,1
+304,sec. XVIII,missing,19
+305,sec. XVIII a.C.,complete,1
+306,sec. XVIII/ XIX,complete,1
+307,sec. XVIII/ XIX,missing,4
+308,sec. XX,complete,2
+309,sec. XX,missing,3
+310,sec. XX a.C.,complete,1
+311,sec. XX a.C.,missing,1
+312,sec. XXII/ XXI a.C.,missing,1
+313,sec. XXV a.C.,incomplete,1
+314,sec. XXV/ XXIV a.C.,complete,1
+315,sec. XXVI a.C.,complete,2
+316,sec. XXVI a.C.,missing,4
+317,sec. XXVI/ XXIV a.C.,complete,1
+318,sec. XXVI/ XXIV a.C.,missing,2
+319,sec. XXVI/ XXV a.C.,complete,1
+320,sec. XXVI/ XXV a.C.,missing,2
+321,sec. XXXII/ XXV a.C.,missing,1
+322,sec.XV,incomplete,1

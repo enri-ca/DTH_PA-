@@ -1,0 +1,107 @@
+,century,status,count
+0,I,complete,62
+1,I,incomplete,18
+2,I,missing,55
+3,I ,incomplete,1
+4,I a.C.,complete,49
+5,I a.C.,incomplete,18
+6,I a.C.,missing,39
+7,I d.C.,missing,2
+8,I-II,complete,2
+9,II,complete,84
+10,II,incomplete,23
+11,II,missing,62
+12,II a.C.,complete,21
+13,II a.C.,incomplete,10
+14,II a.C.,missing,11
+15,III,complete,30
+16,III,incomplete,12
+17,III,missing,31
+18,III a.C.,complete,19
+19,III a.C.,incomplete,7
+20,III a.C.,missing,22
+21,IV,complete,32
+22,IV,incomplete,22
+23,IV,missing,13
+24,IV a.C.,complete,113
+25,IV a.C.,incomplete,19
+26,IV a.C.,missing,19
+27,IX,complete,6
+28,IX,incomplete,1
+29,IX,missing,11
+30,IX a.C.,missing,3
+31,V,complete,10
+32,V,incomplete,6
+33,V,missing,21
+34,V a.C.,complete,129
+35,V a.C.,incomplete,19
+36,V a.C.,missing,43
+37,VI,complete,13
+38,VI,missing,36
+39,VI a.C.,complete,35
+40,VI a.C.,incomplete,9
+41,VI a.C.,missing,22
+42,VII,complete,5
+43,VII,incomplete,1
+44,VII,missing,11
+45,VII a.C.,missing,2
+46,VIII,complete,4
+47,VIII,incomplete,1
+48,VIII,missing,2
+49,VIII a.C.,missing,5
+50,X,complete,3
+51,X,incomplete,2
+52,X,missing,10
+53,XI,complete,22
+54,XI,incomplete,5
+55,XI,missing,22
+56,XI a.C.,complete,1
+57,XI a.C.,missing,1
+58,XII,complete,67
+59,XII,incomplete,23
+60,XII,missing,109
+61,XII a.C.,missing,3
+62,XIII,complete,82
+63,XIII,incomplete,38
+64,XIII,missing,117
+65,XIII a.C.,complete,6
+66,XIII a.C.,incomplete,1
+67,XIII a.C.,missing,12
+68,XIV,complete,130
+69,XIV,incomplete,36
+70,XIV,missing,197
+71,XIV a.C.,incomplete,1
+72,XIV a.C.,missing,2
+73,XIX,complete,42
+74,XIX,incomplete,1
+75,XIX,missing,90
+76,XIX a.C.,missing,1
+77,XV,complete,252
+78,XV,incomplete,92
+79,XV,missing,234
+80,XV a.C.,complete,3
+81,XV a.C.,incomplete,3
+82,XVI,complete,160
+83,XVI,incomplete,37
+84,XVI,missing,162
+85,XVI a.C.,complete,5
+86,XVII,complete,20
+87,XVII,incomplete,3
+88,XVII,missing,71
+89,XVIII,complete,8
+90,XVIII,incomplete,1
+91,XVIII,missing,20
+92,XVIII a.C.,complete,1
+93,XX,complete,2
+94,XX,missing,3
+95,XX a.C.,complete,1
+96,XX a.C.,missing,1
+97,XXI a.C.,missing,1
+98,XXIV a.C.,complete,2
+99,XXIV a.C.,missing,2
+100,XXV a.C.,complete,1
+101,XXV a.C.,incomplete,1
+102,XXV a.C.,missing,3
+103,XXVI a.C.,complete,2
+104,XXVI a.C.,missing,4
+105,sec.XV,incomplete,1
