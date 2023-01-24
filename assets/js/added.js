@@ -65,7 +65,7 @@ if (container.querySelectorAll("a.control_next") {
 
 
 function bigImg(x) {
-x.style.width = "200%"; /*32-64 px*/}
+x.style.width = "120%"; /*32-64 px*/}
 
 function normalImg(x) {
 x.style.width = "100%"; /*32-64 px*/}
