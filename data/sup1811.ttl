@@ -1,0 +1,104 @@
+@base <http://example.org/Supino_PA/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: 	<http://www.w3.org/2001/XMLSchema#> .
+@prefix schema:	<http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix viaf: <http://viaf.org/viaf/> .
+@prefix frbroo: <https://www.iflastandards.info/fr/frbr/frbroo.html> .
+@prefix fentry: <https://w3id.org/people/essepuntato/fentry> .
+@prefix oaentry: <http://purl.org/emmedi/oaentry> .
+
+#Example from sup1881_Veneto_165
+
+#Events
+
+<id/event/ev_01-sup1811> a crm:E5_Event ;
+crm:P11_had_participant <id/person/per_02/Grimani_Cardinal> ; 
+crm:P7_took_place_at	<id/place/Roma> ; 
+crm:P12_occurred_in_the_presence_of <id/object/OA_108071> .
+
+<id/event/ev_02-sup1811> a crm:E69_Death ;
+crm:P93_took_out_of_existence <id/person/per_03/Grimani_last> ; 
+crm:P4_has_time_span	<time-span/ev_02-sup1811> .
+
+<id/event/ev_03-sup1811> a crm:E5_Event ;
+crm:P12_occurred_in_the_presence_of <id/object/OA_108071> ;
+crm:P4_has_time_span	<time-span/ev_03-sup1811> .
+
+<time-span/ev_03-sup1811> a <time:Instant> ;
+time:after <time-span/ev_02-sup1811> .
+
+<id/event/ev_04-sup1811> a crm:E5_Event ;
+crm:P11_had_participant <id/person/per_01/PA_creator> , <id/person/per_04/Grimani_Countess> ; 
+crm:P7_took_place_at	<id/place/Corfu> ; 
+crm:P4_has_time_span	<time-span/1894-03> .
+
+<time-span/ev_04-sup1811> a <time:Instant> ;
+time:inXSDDate '1894-03-01'^^xsd:date ;
+time:after <time-span/ev_03-sup1811> .
+
+#Persons and organizations
+
+<id/organization/Grimani_Family> a foaf:Group, crm:E74_Group ;
+crm:has_former_or_current_member <id/person/per_02/Grimani_Cardinal>, <id/person/per_02/Grimani_last>, <id/person/per_04/Grimani_Countess> .
+
+
+<id/person/per_04/Grimani_Countess> a crm:E21_Person, schema:Person, foaf:Person ;
+	foaf:name 'Maria Grimani Giustinian' ;
+schema:birthDate	'1873-08-25'^^xsd:date ;
+schema:deathDate '1959-01-01'^^xsd:date ;
+foaf:member <id/organization/Grimani_Family> ;
+foaf:knows <id/person/per_01/PA_creator> .
+
+#OA 
+<id/object/OA_108071> owl:sameAs <https://w3id.org/zericatalog/artwork/108071/item> .
+
+#Annotation
+<id/annotation/ann_01-sup1811> a crm:E33_Linguistic_Object, frbroo:F2_Expression, frbroo:F3_Manifestation ;
+crm:P67_refers_to <id/place/Corfu>, <id/place/Roma>, <id/place/Venezia>, 
+<id/event/ev_01-sup1811>, <id/event/ev_02-sup1811>, <id/event/ev_03-sup1811>, <id/event/ev_04-sup1811>, <id/person/per_01/PA_creator>, <id/person/per_02/Grimani_Cardinal>, <id/person/per_02/Grimani_last>, <id/person/per_04/Grimani_Countess> .
+
+<creation/ann_01-sup1811> a frbroo:F28_Expression_Creation ;
+crm:P94_has_created <id/annotation/ann_01-sup1811> ;
+crm:P14_carried_ot_by <id/person/per_01/PA_creator> ;
+crm:P4_has_time_span	<time-span/ann-creat-sup1811> .
+
+<time-span/ann-creat-sup1811> time:after <time-span/ev_04-sup1811> .
+
+<id/event/ev_04-sup1811> a crm:E5_Event ;
+crm:P11_had_participant <id/person/per_01/PA_creator> , <id/person/per_04/Grimani_Countess> ; 
+crm:P7_took_place_at	<id/place/Corfu> ; 
+crm:P4_has_time_span	<time-span/1894-03> .
+
+<time-span/ev_04-sup1811> a <time:Instant> ;
+time:inXSDDate '1894-03-01'^^xsd:date .
+
+#Link to photograph
+<https://w3id.org/zericatalog/photo/181316/positive/item-ba> crm:128_carries <id/annotation/ann_01-sup1811> ;
+	a fabio:AnalogItem, crm:E22_Human-Made_Object .
+	
+<https://w3id.org/zericatalog/organization/biblioteca-arti> a crm:E40_Legal_Body ;
+	crm:P50i_is_current_keeper_of <https://w3id.org/zericatalog/photo/181316/positive/item-ba> .
+
+#Link to Fentry
+
+<https://w3id.org/zericatalog/fentry/801811> a fentry:FEntry , crm:E31_Document ;
+fentry:describes <https://w3id.org/zericatalog/photo/181316>, <https://w3id.org/zericatalog/photo/181316/positive> , <https://w3id.org/zericatalog/photo/181316/positive/item-ba> , <https://w3id.org/zericatalog/artwork/108071/item> ;
+crm:P3_has_note 'Foto sup 1811, verso del supporto secondario: nota anonima manoscritta: "Agrippa. The celebrated statue which the great Cardinal Grimani sent from the portico of the Pantheon to adorn his palace at Venice. On the death of the last of the family, 2 or 3 years ago, it come by bequest to the Museo Civico. I told the Countess Marcello (nee Grimani) that I respected her immensely on account of this statue of Agrippa. This was in Corfù in March 1894.'@en .
+
+<https://w3id.org/zericatalog/photo/181316> a fentry:Photograph , crm:E28_Conceptual_Object ;
+	fabio:hasManifestation <https://w3id.org/zericatalog/photo/181316/positive> .
+				
+<https://w3id.org/zericatalog/photo/181316/positive> a crm:E22_Man-Made_Object , fabio:AnalogManifestation .
+
+#Link to OAentry
+
+<https://w3id.org/zericatalog/artwork/108071/item> a fabio:AnalogItem, crm:E22_Human-Made_Object .
+
+<https://w3id.org/zericatalog/oaentry/105708> a oaentry:OAEntry ;
+oaentry:describes <https://w3id.org/zericatalog/artwork/107708> .
+<https://w3id.org/zericatalog/artwork/107708> fabio:hasPortayal <https://w3id.org/zericatalog/artwork/108071/item> .
