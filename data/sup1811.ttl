@@ -13,12 +13,12 @@
 @prefix oaentry: <http://purl.org/emmedi/oaentry> .
 
 [] a sd:Dataset ;
-   sd:graph ex:mygraph ;
-   sd:defaultGraph [       a sd:Graph ;       sd:name ex:mygraph   ] .
+   sd:graph :mygraph ;
+   sd:defaultGraph [       a sd:Graph ;       sd:name :mygraph   ] .
 
 [] a sd:Service ;
    sd:endpoint <http://example.com/sparql> ;
-   sd:defaultDataset [       a sd:Dataset ;       sd:name ex:mygraph   ] .
+   sd:defaultDataset [       a sd:Dataset ;       sd:name :mygraph   ] .
 
 #Example from sup1881_Veneto_165
 
