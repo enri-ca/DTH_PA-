@@ -12,6 +12,14 @@
 @prefix fentry: <https://w3id.org/people/essepuntato/fentry> .
 @prefix oaentry: <http://purl.org/emmedi/oaentry> .
 
+[] a sd:Dataset ;
+   sd:graph ex:mygraph ;
+   sd:defaultGraph [       a sd:Graph ;       sd:name ex:mygraph   ] .
+
+[] a sd:Service ;
+   sd:endpoint <http://example.com/sparql> ;
+   sd:defaultDataset [       a sd:Dataset ;       sd:name ex:mygraph   ] .
+
 #Example from sup1881_Veneto_165
 
 #Events
